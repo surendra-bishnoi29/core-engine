@@ -1,0 +1,21 @@
+{
+  "name": "core-engine",
+  "version": "1.0.0",
+  "description": "core-engine for vulnerability finder",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+        "dist"
+      ]
+}
